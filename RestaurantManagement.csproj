@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\restaurant.png" />
+    <None Remove="Assets\restaurant_logo.png" />
+    <None Remove="MainTemplate\restaurant.png" />
+    <None Remove="MainTemplate\restaurant_logo.png" />
+    <None Remove="UI\Report\Assets\money.png" />
+    <None Remove="UI\Report\Assets\profit.png" />
+    <None Remove="UI\Report\Assets\satisfy.png" />
+    <None Remove="UI\Report\money.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LiveCharts" Version="0.9.7" />
+    <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.8.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\restaurant.png" />
+    <Resource Include="Assets\restaurant_logo.png" />
+    <Resource Include="MainTemplate\restaurant.png" />
+    <Resource Include="MainTemplate\restaurant_logo.png" />
+    <Resource Include="UI\Report\Assets\money.png" />
+    <Resource Include="UI\Report\Assets\profit.png" />
+    <Resource Include="UI\Report\Assets\satisfy.png" />
+    <Resource Include="UI\Report\money.png" />
+  </ItemGroup>
+
+</Project>
